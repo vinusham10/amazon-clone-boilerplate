@@ -180,5 +180,69 @@ div{
     padding-top: 86px;
 }
 .downarrow{
-    width: 20px;
+    width: 20px;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in box model */
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-image: url("assets/background picture.png");
+    background-position-y: 115px;
+}
+
+.nav1 {
+    background-color: rgb(14, 1, 40);
+    margin-top: 0;
+    height: 71px;
+}
+
+/* ... other styles remain unchanged ... */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+
+    .nav1 {
+        height: auto;
+    }
+
+    .nav1 p,
+    .hello,
+    .sya,
+    .search,
+    .logo,
+    .flag,
+    .helloo,
+    .acc,
+    .cart,
+    .cartimg,
+    .nav2,
+    .nav2 li,
+    .lion,
+    .design,
+    .prime,
+    .rightarrow,
+    .div1,
+    h3,
+    .images,
+    pre,
+    .Shopnow,
+    .div2,
+    .div3,
+    .div4,
+    .oled,
+    .signin,
+    .last,
+    .downarrow {
+        /* Adjust individual styles for smaller screens */
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* Additional responsive styles can be added as needed */
 }
