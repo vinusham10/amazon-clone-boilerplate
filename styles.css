@@ -200,10 +200,7 @@ body {
     height: 71px;
 }
 
-/* ... other styles remain unchanged ... */
-
 @media screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
 
     .nav1 {
         height: auto;
@@ -237,12 +234,9 @@ body {
     .signin,
     .last,
     .downarrow {
-        /* Adjust individual styles for smaller screens */
         width: 100%;
         padding: 10px;
         text-align: center;
         margin: 0 auto;
     }
-
-    /* Additional responsive styles can be added as needed */
 }
